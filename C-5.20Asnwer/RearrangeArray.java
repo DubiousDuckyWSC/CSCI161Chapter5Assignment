@@ -1,8 +1,11 @@
 public class RearrangeArray {
     public static void main(String[] args) {   
         Integer[] realNumbers = {10, 58, 29, 1, 2, 3, 4, 5, 6,7,13,19,22,46,100};
+        Integer[] realNumbers2 = {1, 5, 9, 1, 2, 3, 4, 5, 6,7,13,19,22,46,1};
         arrangeEvensFirst(realNumbers);
+        arrangeEvensFirst(realNumbers2);
         printArray(realNumbers);
+        printArray(realNumbers2);
     }
 
     public static void arrangeEvensFirst(Integer[] numbers) {
