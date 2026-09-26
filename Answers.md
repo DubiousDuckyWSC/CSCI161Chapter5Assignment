@@ -33,6 +33,14 @@ the difference between the right and left bounds is zero or is negative. Alterna
 	Leaving 1 Power method call: Main.power(2, 5)
 
 **R-5.5** - Draw the recursion trace for the execution of reverseArray(data,0,4), from Code Fragment 5.7, on array data = 4, 3, 6, 2, 6.  
+
+	Calling reverseArray Method 1 time: Main.reverseArray(data, 0, 4)
+		Calling reverseArray Method 2 time: Main.reverseArray(data, 1, 3)
+			Calling reverseArray Method 3 time: Main.reverseArray(data, 2, 2)
+			Leaving 3 reverseArray method call: Main.reverseArray(data, 2, 2)
+		Leaving 2 reverseArray method call: Main.reverseArray(data, 1, 3)
+	Leaving 1 reverseArray method call: Main.reverseArray(data, 0, 4)
+
 **R-5.9** - Develop a nonrecursive implementation of the version of the power method from Code Fragment 5.9 that uses repeated squaring.  
 ## Creativity  
 **C-5.17** - Write a short recursive Java method that takes a character string s and outputs its revers.  For example the reverse of 'pots&pans' would be 'snap&stop'.  
