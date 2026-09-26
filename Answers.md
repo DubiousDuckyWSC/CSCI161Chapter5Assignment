@@ -42,6 +42,14 @@ the difference between the right and left bounds is zero or is negative. Alterna
 	Leaving 1 reverseArray method call: Main.reverseArray(data, 0, 4)
 
 **R-5.9** - Develop a nonrecursive implementation of the version of the power method from Code Fragment 5.9 that uses repeated squaring.  
+
+Code is located in R-5.9Answer Folder.
+
 ## Creativity  
 **C-5.17** - Write a short recursive Java method that takes a character string s and outputs its revers.  For example the reverse of 'pots&pans' would be 'snap&stop'.  
+
+Code is located in C-5.17Answer Folder.
+
 **C-5.20** - Write a short recursive java method that rearranges an array of integer values so that all the even values appear before the odd values.  
+
+Code is located in C-5.20Answer Folder
