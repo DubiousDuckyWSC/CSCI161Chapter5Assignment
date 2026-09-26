@@ -21,6 +21,17 @@ the difference between the right and left bounds is zero or is negative. Alterna
 	Leaving 1 Power method call: Main.power(2, 5)
 
 **R-5.4** - Draw the recursion trace for the computation of power(2,18), using the repeated squaring algorithm as implemented in Code Fragment 5.9.  
+
+	Calling Power Method 1 time: Main.power(2, 5)
+		Calling Power Method 2 time: Main.power(2, 2)
+			Calling Power Method 3 time: Main.power(2, 1)
+				Calling Power Method 4 time: Main.power(2, 0)
+
+				Leaving 4 Power method call. End of chain reached!
+			Leaving 3 Power method call: Main.power(2, 1)
+		Leaving 2 Power method call: Main.power(2, 2)
+	Leaving 1 Power method call: Main.power(2, 5)
+
 **R-5.5** - Draw the recursion trace for the execution of reverseArray(data,0,4), from Code Fragment 5.7, on array data = 4, 3, 6, 2, 6.  
 **R-5.9** - Develop a nonrecursive implementation of the version of the power method from Code Fragment 5.9 that uses repeated squaring.  
 ## Creativity  
