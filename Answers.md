@@ -1,5 +1,9 @@
 ## Reinforcement  
 **R-5.2** - Explain how to modify the recursive binary search algorithm so that it returns the index of the targe in the sequence or -1 (if the target is not found).  
+Assuming the binary search algorithm is implemented to simply say "found", the changes I would make include when the element is found I would take that index, which is likely computed
+using the upper and lower bounds of the chunk we are searching, and simply return it. As for the when to know to return -1 if a element is not found, I would probably do something similar to checking if whether
+the difference between the right and left bounds is zero or is negative. Alternatively, if the left and right bound cross, -1 could be returned. These checks would tell me that there are no more elements between the upper and lower bound meaning the element was not found.
+
 **R-5.3** - Draw the recursion trace for the computation of power(2,5), using the traditional algorithm, as implemented in Code Fragment 5.8.  
 **R-5.4** - Draw the recursion trace for the computation of power(2,18), using the repeated squaring algorithm as implemented in Code Fragment 5.9.  
 **R-5.5** - Draw the recursion trace for the execution of reverseArray(data,0,4), from Code Fragment 5.7, on array data = 4, 3, 6, 2, 6.  
